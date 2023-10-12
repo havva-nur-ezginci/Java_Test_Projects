@@ -1,4 +1,5 @@
 package selenium1;
+//2. study
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
