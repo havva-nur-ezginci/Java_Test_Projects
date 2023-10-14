@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Bir Suite, bir XML dosyasıyla temsil edilir. Bir veya daha fazla test içerebilir.-->
+<suite name="Practice Suite">
+    <!-- <test> bir veya daha fazla TestNG sınıfı içerebilir.-->
+    <test name="Test 1">
+        <classes>
+            <class name="selenium3_TestNG.Temel_TestNG"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Test 2">
+        <classes>
+            <class name="selenium3_TestNG.Market_dependsOnMethod"/>
+        </classes>
+    </test> <!-- Test -->
+<!-- Yukarıdaki gibi testler ayrı ayrı veya aşağıdaki gibi toplu halde de bildirilebilir.-->
+    <test name="Regression">
+        <!--Class, TestNG detaylarını içeren bir Java sınıfıdır. Bir veya daha fazla test methodu içerebilir. -->
+        <classes>
+            <class name="selenium3_TestNG.Temel_TestNG"/>
+            <class name="selenium3_TestNG.Market_dependsOnMethod"/>
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
