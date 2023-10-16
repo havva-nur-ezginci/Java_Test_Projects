@@ -1,5 +1,5 @@
 package selenium3_TestNG;
-
+//3. study
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
