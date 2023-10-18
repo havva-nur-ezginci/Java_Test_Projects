@@ -23,7 +23,7 @@
             <version>4.14.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <!-- https://mvnrepository.com/artifact/junit/junit => JUnit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -31,15 +31,13 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.testng/testng => TestNG-->
+        <!-- https://mvnrepository.com/artifact/org.testng/testng => TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.8.0</version>
             <scope>test</scope>
         </dependency>
-
-
 
     </dependencies>
 
