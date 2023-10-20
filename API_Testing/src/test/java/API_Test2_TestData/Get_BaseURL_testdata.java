@@ -34,7 +34,7 @@ output:
     "body": "debitis excepturi ea perferendis harum libero optio\neos accusamus cum fuga ut sapiente repudiandae\net ut incidunt omnis molestiae\nnihil ut eum odit"
 }
  */
-        //4. Assertion ile kontrol et => statusCode, ContentType gb.
+        //4. Assertion ile kontrol et => statusCode gb.
 
         JsonPath actual_body = response.jsonPath(); // dönen response u JsonPath formatında  kaydediyoruz.
 
@@ -43,6 +43,10 @@ output:
         Assert.assertEquals(expected_body.get("id"),actual_body.get("id"));
 
         Assert.assertEquals(expected_body.get("title"),actual_body.get("title"));
+
+        Assert.assertEquals(expected_body.get("userId"),actual_body.get("userId"));
+
+        Assert.assertEquals(expected_body.get("body"),actual_body.get("body"));
 
     }
 }
