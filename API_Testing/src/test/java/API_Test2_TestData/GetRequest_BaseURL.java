@@ -2,7 +2,6 @@ package API_Test2_TestData;
 
 import API_Test2_TestData.BaseURLDeposu.JsonPlaceHolderBaseURL;
 import API_Test2_TestData.TestDataDeposu.JsonPlaceHolderTestData;
-import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import net.minidev.json.JSONObject;
@@ -11,7 +10,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class Get_BaseURL_testdata extends JsonPlaceHolderBaseURL {
+public class GetRequest_BaseURL extends JsonPlaceHolderBaseURL {
     @Test
     public void get_test(){
         //1. Preconditions => Request URL hazırla (gerekli parametre ayarlarını yap)
