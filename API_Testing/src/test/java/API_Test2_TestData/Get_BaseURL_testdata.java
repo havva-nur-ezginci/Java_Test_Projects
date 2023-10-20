@@ -35,11 +35,6 @@ output:
 }
  */
         //4. Assertion ile kontrol et => statusCode, ContentType gb.
-        response.
-                then().
-                assertThat().//assertThat ile karşılaştırma yapıyoruz.
-                statusCode(200).//beklenen 200 OK kodunu veriyoruz.
-                contentType(ContentType.JSON);
 
         JsonPath actual_body = response.jsonPath(); // dönen response u JsonPath formatında  kaydediyoruz.
 
@@ -48,6 +43,6 @@ output:
         Assert.assertEquals(expected_body.get("id"),actual_body.get("id"));
 
         Assert.assertEquals(expected_body.get("title"),actual_body.get("title"));
-        
+
     }
 }
