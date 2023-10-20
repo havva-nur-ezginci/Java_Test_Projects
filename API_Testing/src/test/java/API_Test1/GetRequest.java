@@ -36,6 +36,7 @@ public class GetRequest {
         /// response.prettyPrint(); => response un bize sağladığı buna benzer avantajlar vardır.
 
         //4. Assertion ile kontrol et => statusCode, ContentType
+        // headers değerlerini response üzerinden inceliyoruz.
         response.
                 then().
                 assertThat().//assertThat ile karşılaştırma yapıyoruz.

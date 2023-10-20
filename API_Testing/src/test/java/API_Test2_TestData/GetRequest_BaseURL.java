@@ -1,5 +1,5 @@
 package API_Test2_TestData;
-
+// 1.study
 import API_Test2_TestData.BaseURLDeposu.JsonPlaceHolderBaseURL;
 import API_Test2_TestData.TestDataDeposu.JsonPlaceHolderTestData;
 import io.restassured.path.json.JsonPath;
