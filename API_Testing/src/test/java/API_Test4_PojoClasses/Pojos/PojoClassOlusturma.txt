@@ -1,0 +1,7 @@
+
+pojo class ını oluşturma :
+1.	Private variable ları instance class ında oluştur
+2.	Bu variable ların getter ve setter larını oluştur
+3.	Bütün variableları parametre olarak içeren constructor oluştur
+4.	Parametreli constructor oluşturduğumuzdan dolayı (oop) default parametresiz constructor da oluştur.
+5.	Oluşturduğumuz bütün variablları toString metoduyla stringe dönüştürüyoruz.

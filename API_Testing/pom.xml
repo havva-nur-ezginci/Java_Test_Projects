@@ -47,6 +47,16 @@
             <version>2.10.1</version>
         </dependency>
 
+        <!-- If we are going to use the Pojo class format we should use Project lombok-->
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+            <scope>provided</scope>
+        </dependency>
+
+
 
     </dependencies>
 
