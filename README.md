@@ -12,6 +12,8 @@ Aşağıda her iki test projesine dair detaylar ve kurulum adımları yer almakt
 - [API Test Projesi](#api-test-projesi)
 
 # Web Test Projesi
+- [Web Test Projesi (Selenium, JUnit, TestNG ve Maven)](https://github.com/havva-nur-ezginci/Java_Test_Projects/tree/master/com.MavenSelenium/src/test/java)
+
 ## Proje İçeriği
 
 - **Selenium WebDriver:** Web tarayıcılarını otomatikleştirmek için kullanılır.
@@ -61,7 +63,8 @@ Projedeki gerekli bağımlılıklar `pom.xml` dosyasına eklenmiştir:
 **Maven Proje Yapılandırması:** IDE içinde Maven bağımlılıklarını indirmek için `pom.xml` dosyasını güncelleyin (`mvn install`).
 
 # API Test Projesi
-
+- [API Test Projesi (Postman, RestAssured, Map, Pojo)](https://github.com/havva-nur-ezginci/Java_Test_Projects/tree/master/API_Testing/src/test/java)
+  
 Bu proje, REST API'lerin otomatik test edilmesi için aşağıdaki kütüphaneleri ve araçları kullanır:
 ## Proje İçeriği
 
