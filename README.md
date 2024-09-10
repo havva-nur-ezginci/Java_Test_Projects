@@ -144,3 +144,6 @@ To contribute to this project:
 
 🎉 **Thanks a ton for checking out this project! Every step you take helps us grow. Keep pushing boundaries, and together, let's create something amazing!** 🚀💪
 
+## Related Repositories:
+
+- [Test Projesi (Manuel, Web, Api, Load)](https://github.com/havva-nur-ezginci/QA-TestProjeleri-Manuel-Web-Api-Load)
