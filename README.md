@@ -142,7 +142,7 @@ To contribute to this project:
 4. 📤 **Push** your branch (`git push origin feature/new-feature`).
 5. 🔁 **Open** a Pull Request.
 
-🎉 **Thanks a ton for checking out this project! Every step you take helps us grow. Keep pushing boundaries, and together, let's create something amazing!** 🚀💪
+🎉 **Thanks a lot for taking a look at this project! Every step you take helps us grow. Keep pushing boundaries, and together, let's create something amazing!** 🚀💪
 
 ## Related Repositories:
 
